@@ -11,7 +11,7 @@ I needed something simple to do batch printing, that I could share with end user
 It relies on the default printer, default printer preference settings, and file associations.
 The script will allow you to select your printer, as well as set your default print settings for the batch, and revert the default printer change after it is done, but not the preferences :(. When finished, it will ask if you want to move the files to an archive folder created within the folder directory you selected the files from. A log will be created in the same directory. 
 
-The script supports multiple file types, and can many more can be added in the future, since the print jobs rely on good file associations: 
+The script supports multiple file types, and many more can be added in the future, since the print jobs rely on good file associations: 
 ```*.pdf;*.doc;*.docx;*.xls;*.xlsx;*.ppt;*.pptx;*.csv;*.txt```
 
 # Deployment
