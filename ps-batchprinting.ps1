@@ -4,8 +4,10 @@ $seconds = 3
 #Initial Default printer to revert back to
 $InitPrinter = Get-WmiObject -Query " SELECT * FROM Win32_Printer WHERE Default=$true"
 
+#List of processes to check
 $checkproccess = 'notepad,winword,excel,powerpnt,AcroRd32,Acrobat,chrome,firefox,msedge' -split ','
 
+#Loop for checking open processes and helping to close them
 do {
     $array = @()
     foreach ($item in $checkproccess) {
