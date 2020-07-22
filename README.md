@@ -9,7 +9,7 @@ I needed something simple to do batch printing that I could share with end users
 
 # How does it work? 
 It relies on the default printer, default printer preference settings, and file associations.
-The script will allow you to select your printer, as well as set your default print settings for the batch, and revert the default printer change, but not the preferences :(, after the batch print job is done. When finished, it will ask if you want to move the files to an archive folder created within the folder directory you selected the files from. A log will be created as well in the same directory. 
+The script will allow you to select your printer, as well as set your default print settings for the batch, and revert the default printer change, but not the preferences :(, after the batch print job is done. When finished, it will ask if you want to move the files to an archive folder created within the folder directory you selected the files from. A log will be created in the same directory. 
 
 The script supports multiple file types and can be expanded since the print jobs rely on file associations: 
 ```*.pdf;*.doc;*.docx;*.xls;*.xlsx;*.ppt;*.pptx;*.csv;*.txt```
