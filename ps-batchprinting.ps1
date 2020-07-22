@@ -132,7 +132,7 @@ Write-Host "##############################################################"
 Write-Host "$($timestamp)"
 Write-Host "##############################################################"
 
-#Warning about Printer
+#Get Default Printer
 $DefaultPrinter = Get-WmiObject -Query " SELECT * FROM Win32_Printer WHERE Default=$true"
 
 #Open Printer Preferences
@@ -140,6 +140,7 @@ rundll32.exe printui.dll,PrintUIEntry /e /n "$($DefaultPrinter.Name)"
 
 Start-Sleep 1
 
+#Warning user that batch job will go to selected printer
 $wshell = New-Object -ComObject Wscript.Shell
 $Output = $wshell.Popup("All selected files will be printed to $($DefaultPrinter.Name), at their default settings. Make sure your default settings are applied in the 'Printing Preferences' Window. Do you wish to Continue?",0,"PS-BatchPrinting: Warning - Default Printer",4+48)
 
