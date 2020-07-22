@@ -2,7 +2,7 @@
 Batch Printing with PowerShell
 
 # About me
-I am some what a beginner; I do not consider myself a developer, and I understand the code is messy and is slapped together and has a very linear design. I researched a lot of code and learned a lot in the process. This is the result. 
+I do not consider myself a developer (yet), and I understand the code is messy, slapped together, inconsistant and has a very linear design. I researched a lot of code and learned a lot in the process. This is the result. 
 
 # Inspiration
 I needed something simple to do batch printing that I could share with end users. I did a bunch of research and couldn't find anything usable for average users that wasn't a costly commercial product. 
