@@ -5,7 +5,7 @@ $seconds = 3
 $InitPrinter = Get-WmiObject -Query " SELECT * FROM Win32_Printer WHERE Default=$true"
 
 #List of processes to check
-$checkproccess = 'notepad,winword,excel,powerpnt,AcroRd32,Acrobat,chrome,firefox,msedge' -split ','
+$checkproccess = 'notepad,winword,excel,powerpnt,AcroRd32,Acrobat' -split ','
 
 #Loop for checking open processes and helping to close them
 do {
@@ -156,7 +156,7 @@ $Output = $wshell.Popup("All selected files will be printed to $($DefaultPrinter
 	  foreach($file in Get-ChildItem $path){
 	  Get-ChildItem ($file) |
 		  ForEach-Object {
-            Start-Process -FilePath $file.Fullname -Verb Print -PassThru | Wait-Process -Name notepad, winword, excel, powerpnt, AcroRd32, Acrobat, chrome, firefox, msedge, opera  -Timeout 60 -ErrorAction SilentlyContinue | Stop-Process
+            Start-Process -FilePath $file.Fullname -Verb Print -PassThru | Wait-Process -Name notepad, winword, excel, powerpnt, AcroRd32, Acrobat  -Timeout 60 -ErrorAction SilentlyContinue | Stop-Process
             Start-Sleep $seconds
             Write-Host "Printing $($file.name)"
 	  	}
