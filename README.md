@@ -14,5 +14,8 @@ The script will allow you to select your printer, as well as set your default pr
 The script supports multiple file types, and many more can be added in the future, since the print jobs rely on good file associations: 
 ```*.pdf;*.doc;*.docx;*.xls;*.xlsx;*.ppt;*.pptx;*.csv;*.txt```
 
+Known programs that work with the file associations above: notepad, Word, Excel, Adobe Acrobat Reader DC
+Using browsers such as chrome for PDF file association will result in error.
+
 # Deployment
 For deployment, I used the [PS2EXE project](https://github.com/MScholtes/PS2EXE) to encapsulate the script into an executable that was easy for end users to launch. Some AVs may have some false positives during this process, and the program may need to be whitelisted. For this script, I recommend using the ```-noConsole``` and ```-noOutput``` Parameters.
