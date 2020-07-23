@@ -16,7 +16,9 @@ The script supports multiple file types, and many more can be added in the futur
 
 Known programs that work with the file associations above: ```Notepad, Word, Excel, Adobe Acrobat Reader DC```
 
+#Known Errors
 Using browsers such as chrome for PDF file association will result in errors for those files.
+```"This command cannot be run due to the error: No application is associated with the specified file for this operation."```
 
 # Deployment
 For deployment, I used the [PS2EXE project](https://github.com/MScholtes/PS2EXE) to encapsulate the script into an executable that was easy for end users to launch. Some AVs may have some false positives during this process, and the program may need to be whitelisted. For this script, I recommend using the ```-noConsole``` and ```-noOutput``` Parameters.
