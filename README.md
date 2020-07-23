@@ -17,7 +17,7 @@ The script supports multiple file types, and many more can be added in the futur
 Known programs that work with the file associations above: ```Notepad, Word, Excel, Adobe Acrobat Reader DC```
 
 # Known Errors
-Using browsers such as chrome for PDF file association will result in errors for those files:
+Using browsers such as chrome for PDF file association will result in the following Error:
 
 ```"This command cannot be run due to the error: No application is associated with the specified file for this operation."```
 
