@@ -14,7 +14,7 @@ The script will allow you to select your printer, as well as set your default pr
 The script supports multiple file types, and many more can be added in the future, since the print jobs rely on good file associations: 
 ```*.pdf;*.doc;*.docx;*.xls;*.xlsx;*.ppt;*.pptx;*.csv;*.txt```
 
-Known programs that work with the file associations above: ```notepad, Word, Excel, Adobe Acrobat Reader DC```
+Known programs that work with the file associations above: ```Notepad, Word, Excel, Adobe Acrobat Reader DC```
 
 Using browsers such as chrome for PDF file association will result in errors for those files.
 
