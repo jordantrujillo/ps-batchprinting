@@ -5,7 +5,7 @@ Batch Printing with PowerShell
 I will be updating this code soon. I slapped it together while doing research and it came out very linear and I plan on creating it with functions. 
 
 # Inspiration
-I needed something simple to do batch printing, that I could share with end users. I did a bunch of research and couldn't find anything usable for average users that wasn't a costly commercial product. 
+I needed something simple to do batch printing, that I could share with end users. I did a bunch of research and couldn't find anything usable for average users that wasn't a costly feature rich commercial product. 
 
 # How does it work? 
 It relies on the default printer, default printer preference settings, and file associations.
